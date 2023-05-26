@@ -17,14 +17,14 @@ CREATE TABLE IF NOT EXISTS FUNCIONARIO
 );
 
 INSERT INTO FUNCIONARIO(Pnome, Minicial, Unome, Cpf, Datanasc, Endereco, Sexo, Salario, Cpf_supervisor, Dnr) VALUES
-    ("Jorge", "E", "Brito", 88888555576, "1937-11-10", "Rua do Horto, 35, São Paulo, SP", "M", 55.000, NULL, 1) -- Linha 8
-    ("Fernando", "T", "Wong", 33344555587, "1955-12-08", "Rua da Lapa, 34, São Paulo, SP", "M", 40.000, 88888555576, 5), -- Linha 2
-    ("Jennifer", "S", "Souza", 98765432168, "1941-06-20", "Av. Arthur de Lima, 54, Santo André, SP", "F", 43.000, 88888555576, 4), -- Linha 4
-    ("Alice", "J", "Zelaya", 99988777767, "1968-01-19", "Rua Souza Lima, 35, Curitiba, PR", "F", 25.000, 98765432168, 4), -- Linha 3
-    ("André", "V", "Pereira", 98798798733, "1969-03-29", "Rua Timbra, 35, São Paulo, SP", "M", 25.000, 98765432168, 4), -- Linha 7
-    ("Ronaldo", "K", "Lima", 66688444476, "1962-09-15", "Rua Rebouças, 65, Piraoioaba, SP", "M", 38.000, 33344555587, 5), -- Linha 5
-    ("Joice", "A", "Leite", 45345345376, "1972-07-31", "Av. Lucas Obes, 74, São Paulo, SP", "F", 25.000, 33344555587, 5), -- Linha 6
-    ("João", "B", "Silva", 12345678966, "1965-01-09", "Rua das Flores, 751, São Paulo, SP", "M", 30.000, 33344555587, 5); -- Linha 1
+    ("Jorge", "E", "Brito", 88888555576, "1937-11-10", "Rua do Horto, 35, São Paulo, SP", "M", 55000, NULL, 1),
+    ("Fernando", "T", "Wong", 33344555587, "1955-12-08", "Rua da Lapa, 34, São Paulo, SP", "M", 40000, 88888555576, 5),
+    ("Jennifer", "S", "Souza", 98765432168, "1941-06-20", "Av. Arthur de Lima, 54, Santo André, SP", "F", 43000, 88888555576, 4),
+    ("Alice", "J", "Zelaya", 99988777767, "1968-01-19", "Rua Souza Lima, 35, Curitiba, PR", "F", 25000, 98765432168, 4),
+    ("André", "V", "Pereira", 98798798733, "1969-03-29", "Rua Timbra, 35, São Paulo, SP", "M", 25000, 98765432168, 4),
+    ("Ronaldo", "K", "Lima", 66688444476, "1962-09-15", "Rua Rebouças, 65, Piraoioaba, SP", "M", 38000, 33344555587, 5),
+    ("Joice", "A", "Leite", 45345345376, "1972-07-31", "Av. Lucas Obes, 74, São Paulo, SP", "F", 25000, 33344555587, 5),
+    ("João", "B", "Silva", 12345678966, "1965-01-09", "Rua das Flores, 751, São Paulo, SP", "M", 30000, 33344555587, 5);
 
 CREATE TABLE IF NOT EXISTS DEPARTAMENTO
 (Dnome VARCHAR(15) NOT NULL,
